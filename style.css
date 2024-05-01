@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:white;
+}
+
+.container{
+    background-color: white;
+    width: auto;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconTitle{
+    width: 416px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.inPass form{
+    height: 115px;
+    margin-bottom: 40px;
+}
+
+.in{
+    display: flex;
+    flex-direction: column;
+}
+
+.in input{
+    height: 45px;
+    width: 419px;
+    padding-left: 12px;
+    padding-bottom: 3px;
+    border-radius: 3px;
+    border: 1px solid rgba(214, 209, 209, 0.699);
+    background-color: rgba(243, 246, 247, 0.982);
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.enter input{
+    width: 419px;
+    height: 43px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(47, 47, 255, 0.739);
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3px;
+    
+}
+
+.getPass{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.getPass a{
+    text-decoration: none;
+    color: rgba(47, 47, 255, 0.739);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.getPass p{
+    margin: 12px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.getPass button{
+    height: 34px;
+    width: 332px;
+    background-color: transparent;
+    border: 1px solid rgb(199, 195, 195);
+    border-radius: 3px;
+    text-align: center;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+
