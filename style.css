@@ -55,10 +55,10 @@ body{
     border-radius: 4px;
     background-color: rgba(47, 47, 255, 0.739);
     color: white;
-    font-size: 18px;
+    font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 3px;
-    
+    font-weight: bold;
 }
 
 .getPass{
@@ -93,4 +93,3 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 5px;
 }
-
